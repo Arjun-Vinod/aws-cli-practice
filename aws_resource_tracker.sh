@@ -1,6 +1,6 @@
 #!/bin/bash
 #######################
-#Author: Arjun
+#Author: Arjun Vinod
 #
 #Version: v1
 #
@@ -25,7 +25,7 @@ aws s3 ls >> resourceTracker
 echo "Available lambda functions"
 aws lambda list-functions >> resourceTracker
 
-#List IAM roles
+#List IAM users
 echo "Available IAM roles"
 aws iam list-users >> resourceTracker
 
