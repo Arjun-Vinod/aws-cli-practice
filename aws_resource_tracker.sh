@@ -26,6 +26,6 @@ echo "Available lambda functions"
 aws lambda list-functions >> resourceTracker
 
 #List IAM users
-echo "Available IAM roles"
+echo "Available IAM users"
 aws iam list-users >> resourceTracker
 
